@@ -10,5 +10,5 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --file=golang/go.mod
+          args: --all-projects --file=path/to/go.mod
           command: monitor
