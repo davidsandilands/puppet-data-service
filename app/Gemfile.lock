@@ -28,13 +28,13 @@ GEM
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.8)
+    nio4r (2.7.3)
     openapi_parser (0.15.0)
     pg (1.2.3)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    puma (5.6.4)
+    puma (5.6.9)
       nio4r (~> 2.0)
     rack (2.2.3.1)
     rack-protection (2.2.0)
@@ -63,6 +63,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
   x86_64-linux
 
@@ -72,7 +73,7 @@ DEPENDENCIES
   composite_primary_keys (~> 13.0)
   pg (~> 1.2)
   pry
-  puma (~> 5.6)
+  puma (~> 5.6, >= 5.6.9)
   rake (~> 13.0)
   sinatra (~> 2.2)
   sinatra-activerecord (~> 2.0)
